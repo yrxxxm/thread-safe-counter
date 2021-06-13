@@ -10,7 +10,8 @@
 
 union semun{
         int val;
-        struct semid_ds *buf;        ushort *array;
+        struct semid_ds *buf;        
+        ushort *array;
 };
 
 #define PATH "/home/yurim"
