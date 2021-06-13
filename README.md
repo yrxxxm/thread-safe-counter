@@ -11,4 +11,5 @@ mutex
 semaphore
 
 
-semaphore 
+Semaphore took much longer. 
+This is because more than n cases can occur in semaphore, while mutext implements both lock and unlock.
